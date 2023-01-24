@@ -102,7 +102,7 @@ main {
   flex: 1 1 auto;
   padding: 20px 50px;
   overflow-y: scroll;
-  max-height: 600px;
+  max-height: 700px;
 }
 
 .list {
