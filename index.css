@@ -26,6 +26,7 @@ a {
 .svg {
   width: 25px;
   fill: rgba(32, 36, 39, 0.647);
+  cursor: pointer;
 }
 
 .container {
