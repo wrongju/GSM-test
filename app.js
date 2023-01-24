@@ -1,4 +1,3 @@
-
 let create = document.querySelector('.creater');
 let list = document.querySelector('.list');
 let documents = document.querySelectorAll('.list-folders');
