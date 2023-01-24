@@ -102,7 +102,7 @@ main {
   flex: 1 1 auto;
   padding: 20px 50px;
   overflow-y: scroll;
-  max-height: 700px;
+  max-height: calc(100vh - 178px);
 }
 
 .list {
@@ -127,10 +127,10 @@ main {
 }
 
 .list-folders:hover {
-	background-color: rgba(0, 0, 0, 0.103);
+  background-color: rgba(0, 0, 0, 0.103);
 }
 .list-folders:active {
-	background-color: rgba(0, 0, 0, 0.159);
+  background-color: rgba(0, 0, 0, 0.159);
 }
 
 /* FOOTER */
@@ -176,11 +176,11 @@ footer {
 }
 
 .creater:hover {
-	background-color: rgba(199, 199, 199, 0.544);
+  background-color: rgba(199, 199, 199, 0.544);
 }
 
 .creater:active {
-	background-color: rgba(0, 0, 0, 0.159);
+  background-color: rgba(0, 0, 0, 0.159);
 }
 
 input[type='text']::-ms-clear {
